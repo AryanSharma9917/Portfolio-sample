@@ -86,8 +86,8 @@ export const Home = () => {
         title="AEGON - A personal assistant"
         description="Aegon is a personal assistant that works on commands that are recognised by the predefined library JARVIS "
         buttonText="View project"
-        buttonLink="https://github.com/AryanSharma9917/Aegon"
-        // buttonLink="/projects/smart-sparrow"
+        // buttonLink="https://github.com/AryanSharma9917/Aegon"
+        buttonLink="/projects/smart-sparrow"
         model={{
           type: 'laptop',
           alt: 'Smart Sparrow lesson builder',
