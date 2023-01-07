@@ -70,14 +70,14 @@ import styles from './SmartSparrow.module.css';
 const Earth = dynamic(() => import('./Earth').then(mod => mod.Earth));
 const EarthSection = dynamic(() => import('./Earth').then(mod => mod.EarthSection));
 
-const title = 'Designing the future of education';
+const title = 'Designing the future of smart work and AI';
 const description =
-  'I worked as the design lead on a major iteration of Smart Sparrow’s product. We took the platform in a bold new direction, focusing on becoming the best tool for learning designers.';
+  'I worked on Aegon a virtual assistant which works on Artificial Intelligence with the humor of working on commands and performs various stuffs as a commands.';
 const roles = [
-  'Art Direction',
-  'UX and UI Design',
-  'Front End Development',
-  'Motion Design',
+  'Python Development',
+  'Library from Jarvis a open library',
+  'Full stack development',
+  'Neural Networks and Algorithms',
 ];
 
 export const SmartSparrow = () => {
@@ -104,7 +104,7 @@ export const SmartSparrow = () => {
         <ProjectHeader
           title={title}
           description={description}
-          url="https://www.smartsparrow.com/"
+          url="https://github.com/AryanSharma9917/Aegon/"
           roles={roles}
         />
         <ProjectSection padding="top">
@@ -123,7 +123,7 @@ export const SmartSparrow = () => {
                   : imageSprLessonBuilderLightPlaceholder
               }
               sizes={`(max-width: ${media.mobile}px) 100vw, (max-width: ${media.tablet}px) 800px, 1000px`}
-              alt="The aero lesson builder app dragging an audio component into a screen about plant cells."
+              // alt="The aero lesson builder app dragging an audio component into a screen about plant cells."
             />
           </ProjectSectionContent>
         </ProjectSection>
@@ -131,13 +131,13 @@ export const SmartSparrow = () => {
           <ProjectTextRow>
             <ProjectSectionHeading>The problem</ProjectSectionHeading>
             <ProjectSectionText>
-              In 2017, Smart Sparrow began a project to build an entirely new platform to
-              from the ground up to serve as the most powerful tool for educators to
-              create online learning experiences. The old platform was built in Flash, and
-              there were a number of user experience problems to solve in the process of
-              moving the platform to Javascript. The primary goals for the project were
-              reducing barriers to collaboration, and making the platform both easier for
-              new users, but with plenty of room to scale for advanced users.
+              Artificial Intelligence, is all about the theory and development of computer
+              systems that are able to perform tasks normally without human intervention
+              but requiring human intelligence for visual perception, speech recognition,
+              decision-making, and translation between languages. It is an
+              interdisciplinary competence with numerous perspectives. Today the
+              development of AI is creating a progressive shift in the division of the
+              tech industry.
             </ProjectSectionText>
           </ProjectTextRow>
         </ProjectSection>
@@ -221,7 +221,7 @@ export const SmartSparrow = () => {
             }
           >
             <ProjectSectionColumns width="full">
-              <ProjectSectionContent width="full">
+              {/* <ProjectSectionContent width="full">
                 <ProjectTextRow width="s">
                   <ProjectSectionHeading>Motion design</ProjectSectionHeading>
                   <ProjectSectionText>
@@ -231,8 +231,8 @@ export const SmartSparrow = () => {
                     the overall experience.
                   </ProjectSectionText>
                 </ProjectTextRow>
-              </ProjectSectionContent>
-              <Image
+              </ProjectSectionContent> */}
+              {/* <Image
                 raised
                 className={styles.video}
                 srcSet={[
@@ -242,13 +242,13 @@ export const SmartSparrow = () => {
                 placeholder={videoSprMotionPlaceholder}
                 alt="A learning designer building and deploying an interactive lesson on volcanism using the app."
                 sizes={`(max-width: ${media.mobile}px) 100vw, 50vw`}
-              />
+              /> */}
             </ProjectSectionColumns>
           </ProjectSection>
         </ThemeProvider>
         <ProjectSection>
           <ProjectSectionContent>
-            <ProjectTextRow>
+            {/* <ProjectTextRow>
               <ProjectSectionHeading>Encouraging adaptivity</ProjectSectionHeading>
               <ProjectSectionText>
                 A major part of solving for collaboration was being able to visualize the
@@ -257,8 +257,8 @@ export const SmartSparrow = () => {
                 the higher level structure without having to dig through all of the
                 adaptivity scenarios screen by screen.
               </ProjectSectionText>
-            </ProjectTextRow>
-            <Image
+            </ProjectTextRow> */}
+            {/* <Image
               raised
               key={themeId}
               srcSet={
@@ -273,12 +273,12 @@ export const SmartSparrow = () => {
               }
               alt="A drag and drop storyboard style editor for creating an adaptive lesson."
               sizes={`(max-width: ${media.mobile}px) 100vw, 80vw`}
-            />
+            /> */}
           </ProjectSectionContent>
         </ProjectSection>
         <ProjectSection>
           <ProjectSectionColumns>
-            <ProjectSectionContent>
+            {/* <ProjectSectionContent>
               <ProjectTextRow>
                 <ProjectSectionHeading>
                   An extensible plugin ecosystem usable by everyone
@@ -291,9 +291,9 @@ export const SmartSparrow = () => {
                   everything using a common configuration interface.
                 </ProjectSectionText>
               </ProjectTextRow>
-            </ProjectSectionContent>
-            <div className={styles.sidebarImages}>
-              <Image
+            </ProjectSectionContent> */}
+            {/* <div className={styles.sidebarImages}> */}
+            {/* <Image
                 className={styles.sidebarImage}
                 srcSet={
                   isDark
@@ -322,12 +322,12 @@ export const SmartSparrow = () => {
                 }
                 alt="Configuration options for text."
                 sizes={`(max-width: ${media.mobile}px) 50vw, 25vw`}
-              />
-            </div>
+              /> */}
+            {/* </div> */}
           </ProjectSectionColumns>
         </ProjectSection>
         <ThemeProvider themeId="dark" data-invert>
-          <Earth
+          {/* <Earth
             className={styles.earth}
             hideMeshes={useMemo(
               () => ['Atmosphere', 'EarthPartial', 'Chunk', 'EarthFull'],
@@ -503,9 +503,9 @@ export const SmartSparrow = () => {
               camera={[0.37, 1.02, 1.84]}
               meshes={['Atmosphere', 'EarthFull']}
             />
-          </Earth>
+          </Earth> */}
         </ThemeProvider>
-        <ProjectSection>
+        {/* <ProjectSection>
           <ProjectSectionContent>
             <ProjectTextRow center centerMobile noMargin>
               <ProjectSectionHeading>Project outcomes</ProjectSectionHeading>
@@ -519,7 +519,7 @@ export const SmartSparrow = () => {
               </ProjectSectionText>
             </ProjectTextRow>
           </ProjectSectionContent>
-        </ProjectSection>
+        </ProjectSection> */}
       </ProjectContainer>
       <Footer />
     </Fragment>
