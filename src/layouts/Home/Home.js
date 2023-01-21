@@ -131,13 +131,14 @@ export const Home = () => {
         sectionRef={projectThree}
         visible={visibleSections.includes(projectThree.current)}
         index={3}
-        title="Biomedical image collaboration"
-        description="Increasing the amount of collaboration in Slice, an app for biomedical imaging"
+        title="Traffic signs classifier"
+        description="About
+        Techniques in deep learning including Convolutional Neural Network. This project was meant for learning image classification using Convolutional Neural Networks."
         buttonText="View project"
         buttonLink="/projects/slice"
         model={{
           type: 'laptop',
-          alt: 'Annotating a biomedical image in the Slice app',
+          alt: 'Annotating a Neural Networking case',
           textures: [
             {
               srcSet: [sliceTexture, sliceTextureLarge],

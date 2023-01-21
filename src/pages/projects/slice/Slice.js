@@ -40,10 +40,10 @@ import { Fragment } from 'react';
 import { media } from 'utils/style';
 import styles from './Slice.module.css';
 
-const title = 'Biomedical image collaboration';
+const title = 'Traffic signs classifier';
 const description =
-  'This project involved designing a better way for biomedical educators and learners to annotate digital slides together.';
-const roles = ['User Research', 'UX Design', 'Interface Design'];
+  'This project was meant for learning image classification using Convolutional Neural Networks. Additionally, this project compares results between Adam and SGD optimizers..';
+const roles = ['Machine Learning', 'DeepLearning', 'Interface Design'];
 
 export const Slice = () => {
   return (
@@ -59,7 +59,8 @@ export const Slice = () => {
         <ProjectHeader
           title={title}
           description={description}
-          url="https://www.best.edu.au/s/q2yjjvl7?data=8%404!9%4020303!10%40-15087&version=1"
+          url="https://github.com/AryanSharma9917/Neural-Network"
+          // url="https://www.best.edu.au/s/q2yjjvl7?data=8%404!9%4020303!10%40-15087&version=1"
           roles={roles}
         />
         <ProjectSection padding="top">
@@ -67,7 +68,7 @@ export const Slice = () => {
             <ProjectImage
               srcSet={[sliceApp, sliceAppLarge]}
               placeholder={sliceAppPlaceholder}
-              alt="The Slice web application showing a selected user annotation."
+              alt="This traffic signal classifier is meant for learning image classification using Convolutional Neural Networks(CNN)."
               sizes={`(max-width: ${media.mobile}px) 100vw, (max-width: ${media.tablet}px) 90vw, 80vw`}
             />
           </ProjectSectionContent>
@@ -171,11 +172,6 @@ export const Slice = () => {
                 and easy to use the application was.
               </ProjectSectionText>
             </ProjectTextRow>
-            <Image
-              src={sliceIrl}
-              placeholder={sliceIrlPlaceholder}
-              alt="Students at the University of New South Wales using the new collaborative annotation features"
-            />
           </ProjectSectionContent>
         </ProjectSection>
       </ProjectContainer>
