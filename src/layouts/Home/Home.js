@@ -87,10 +87,10 @@ export const Home = () => {
         description="Aegon is a personal assistant that works on commands that are recognised by the predefined library JARVIS "
         buttonText="View project"
         // buttonLink="https://github.com/AryanSharma9917/Aegon"
-        buttonLink="/projects/smart-sparrow"
+        buttonLink="/projects/aegon"
         model={{
           type: 'laptop',
-          alt: 'Smart Sparrow lesson builder',
+          alt: 'aegon lesson builder',
           textures: [
             {
               srcSet: [sprTexture, sprTextureLarge],
