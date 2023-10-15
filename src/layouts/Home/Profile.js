@@ -30,6 +30,10 @@ const ProfileText = ({ visible, titleId }) => (
     <Text className={styles.description} data-visible={visible} size="l" as="p">
       I’m always down for hearing about new projects, so feel free to drop me a line.
     </Text>
+    <Text className={styles.description} data-visible={visible} size="l" as="p">
+      I'm a DevOps enthusiast. I am a CNCF and Kubernetes community member and have been
+      working with Golang and microservices.
+    </Text>
   </Fragment>
 );
 
