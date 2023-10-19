@@ -18,7 +18,12 @@ import { ProjectSummary } from 'layouts/Home/ProjectSummary';
 import { useEffect, useRef, useState } from 'react';
 import styles from './Home.module.css';
 
-const disciplines = ['Developer', 'OpenSource Contributor', 'DevOps'];
+const disciplines = [
+  'Developer',
+  'OpenSource Contributor',
+  'DevOps',
+  'CNCF & Kubernates Member',
+];
 
 export const Home = () => {
   const [visibleSections, setVisibleSections] = useState([]);
@@ -139,6 +144,26 @@ export const Home = () => {
         model={{
           type: 'laptop',
           alt: 'Annotating a Neural Networking case',
+          textures: [
+            {
+              srcSet: [sliceTexture, sliceTextureLarge],
+              placeholder: sliceTexturePlaceholder,
+            },
+          ],
+        }}
+      />
+      <ProjectSummary
+        id="project-3"
+        sectionRef={projectThree}
+        visible={visibleSections.includes(projectThree.current)}
+        // index={}
+        title="SKILLS"
+        description="JAVA , Golang , Python , JavaScript , Angular , React, Ansible, Terraform, Kubernetes"
+        // buttonText="View project"
+        // buttonLink="/projects/slice"
+        model={{
+          // type: 'laptop',
+          // alt: 'Annotating a Neural Networking case',
           textures: [
             {
               srcSet: [sliceTexture, sliceTextureLarge],
