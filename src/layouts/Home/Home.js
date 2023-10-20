@@ -22,7 +22,7 @@ const disciplines = [
   'Developer',
   'OpenSource Contributor',
   'DevOps',
-  'Kubernates Member',
+  'Kubernates-Member',
 ];
 
 export const Home = () => {
