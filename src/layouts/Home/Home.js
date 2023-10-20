@@ -22,7 +22,7 @@ const disciplines = [
   'Developer',
   'OpenSource Contributor',
   'DevOps',
-  'CNCF & Kubernates Member',
+  'Kubernates Member',
 ];
 
 export const Home = () => {
