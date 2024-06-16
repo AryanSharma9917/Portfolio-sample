@@ -1,14 +1,17 @@
-__  __  __
-\ \ \ \ \/
- \ \/\ \
-  \/  \/
+
+     /\
+    /  \
+   / /\ \
+  / ____ \
+ /_/    \_\
+
 
 The humans.txt file explains the team, technology,
 and graphic assets behind this site humanstxt.org.
 
 _______________________________________________________________________________
 
-DESIGNER | デザイナー
+DEVELOPER | デベロッパー
 
 Aryan Sharma
 Hand crafted design & web development

@@ -21,19 +21,14 @@ const ProfileText = ({ visible, titleId }) => (
       <DecoderText text="Hi there" start={visible} delay={500} />
     </Heading>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      I’m Hamish, currently I live in Sydney working as a senior product designer at{' '}
-      <Link href="https://www.qwilr.com">Qwilr</Link>. My projects include UX design, UI
-      animations, and icon illustration. Being comfortable with code allows me to rapidly
-      prototype and validate experiences. If you’re interested in the tools and software I
-      use check out my <Link href="/uses">uses page</Link>.
+      I’m Aryan Sharma, currently working as a DevOps Engineer at Fintricity. My background revolves around cloud infrastructure, automation, and contributing to open-source projects. During my time as a DevOps intern at Kendralabs, I got hands-on experience implementing CNCF projects on AWS and Azure. Later, at JP Morgan as a Software Engineer Intern, I focused on streamlining infrastructure provisioning using AWS and Terraform.
     </Text>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      In my spare time I like to practice Brazilian Jiu Jitsu, play video games, and{' '}
-      <Link href="/projects/volkihar-knight">make mods</Link>. I’m always down for hearing
-      about new projects, so feel free to drop me a line.
+      I'm actively involved in the Kubernetes community and other open-source projects, showcasing my skills in Go, Python, Kubernetes, Docker, AWS, Azure, and more. With a Bachelor's degree in Technology specializing in AI, I bring a mix of technical expertise and innovative thinking to every project I work on.
     </Text>
   </Fragment>
 );
+
 
 export const Profile = ({ id, visible, sectionRef }) => {
   const [focused, setFocused] = useState(false);
@@ -86,7 +81,7 @@ export const Profile = ({ id, visible, sectionRef }) => {
                   width={960}
                   height={1280}
                   sizes={`(max-width: ${media.mobile}px) 100vw, 480px`}
-                  alt="Me smiling like a goofball at the Qwilr office in Sydney"
+                  alt="Me waiting for the metro to arrive."
                 />
                 <svg className={styles.svg} data-visible={visible} viewBox="0 0 136 766">
                   <use href={`${katakana}#katakana-profile`} />

@@ -10,3 +10,5 @@ node_modules
 public/draco
 storybook-static
 .storybook/
+
+*storybook.log

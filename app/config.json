@@ -1,11 +1,10 @@
 {
   "name": "Aryan Sharma",
-  "role": "Designer",
-  "disciplines": ["Developer", "Prototyper", "Animator", "Illustrator", "Modder"],
+  "role": "DevOps",
+  "disciplines": ["Developer", "OpenSource", "Contributor", "Kubernetes", "Cloud"],
   "url": "https://AryanSharmalink.com",
   "twitter": "@AryanSharma9917",
-  "figma": "@Hamish",
   "github": "AryanSharma9917",
-  "repo": "https://github.com/AryanSharma9917/portfolio",
+  "repo": "https://github.com/AryanSharma9917/portfolio-sample",
   "ascii": "__  __  __\n\u005C \u005C \u005C \u005C \u005C\u2215\n \u005C \u005C\u2215\u005C \u005C\n  \u005C\u2215  \u005C\u2215\n"
 }

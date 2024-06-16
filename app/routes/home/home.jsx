@@ -103,13 +103,13 @@ export const Home = () => {
         sectionRef={projectOne}
         visible={visibleSections.includes(projectOne.current)}
         index={1}
-        title="Designing the future of education"
-        description="Designing a platform to help educators build better online courseware"
+        title="Codewise-CLI"
+        description="This is a CLI tool that offers a fundamental set of commands to streamline your DevOps processes. "
         buttonText="View project"
-        buttonLink="/projects/smart-sparrow"
+        buttonLink="https://github.com/AryanSharma9917/Codewise-CLI"
         model={{
           type: 'laptop',
-          alt: 'Smart Sparrow lesson builder',
+          alt: 'Codewise-CLI terminal interface',
           textures: [
             {
               srcSet: `${sprTexture} 1280w, ${sprTextureLarge} 2560w`,
@@ -124,10 +124,10 @@ export const Home = () => {
         sectionRef={projectTwo}
         visible={visibleSections.includes(projectTwo.current)}
         index={2}
-        title="Video game progress tracking"
-        description="Design and development for a video game tracking app built in React Native"
+        title="Go Authentication API"
+        description="This is a backend API service in Golang that handles authorization and authentication for a web app where users in an organization can sign in and list all other users in their organization. The API follows REST API conventions and uses JWT for authentication."
         buttonText="View website"
-        buttonLink="https://gamestack.AryanSharmalink.com"
+        buttonLink="https://github.com/AryanSharma9917/GO-auth-API"
         model={{
           type: 'phone',
           alt: 'App login screen',
@@ -148,10 +148,10 @@ export const Home = () => {
         sectionRef={projectThree}
         visible={visibleSections.includes(projectThree.current)}
         index={3}
-        title="Biomedical image collaboration"
-        description="Increasing the amount of collaboration in Slice, an app for biomedical imaging"
+        title="ServiceSync "
+        description="Substitutes git submodules and provides an easy way to manage microservices under a single unified platform. "
         buttonText="View project"
-        buttonLink="/projects/slice"
+        buttonLink="https://github.com/AryanSharma9917/ServiceSync"
         model={{
           type: 'laptop',
           alt: 'Annotating a biomedical image in the Slice app',
