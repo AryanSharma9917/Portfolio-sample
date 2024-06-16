@@ -1,9 +1,9 @@
 {
-  "short_name": "Hamish Williams",
-  "name": "Design Portfolio of Hamish Williams",
+  "short_name": "Aryan Sharma",
+  "name": "Design Portfolio of Aryan Sharma",
   "icons": [
     {
-      "src": "favicon.png",
+      "src": "shortcut.png",
       "sizes": "64x64",
       "type": "image/png"
     },

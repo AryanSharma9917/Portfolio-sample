@@ -1,6 +1,6 @@
 # Personal portfolio
 
-My design portfolio to showcase a few projects. Built with [Next.js](https://nextjs.org/), [Three.js](https://threejs.org/), and [Framer Motion](https://www.framer.com/motion/). View the [live site](https://AryanSh.com) or check out a live version of the [components storybook](https://storybook.hamishw.com).
+My design portfolio to showcase a few projects. Built with [Next.js](https://nextjs.org/), [Three.js](https://threejs.org/), and [Framer Motion](https://www.framer.com/motion/). View the [live site](https://AryanSh.com) or check out a live version of the [components storybook](https://storybook.AryanSharmalink.com).
 
 ## Install & run
 

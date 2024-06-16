@@ -8,9 +8,9 @@ and graphic assets behind this site humanstxt.org.
 
 _______________________________________________________________________________
 
-DEVELOPER | デザイナー
+DESIGNER | デザイナー
 
-ARYAN SHARMA
+Aryan Sharma
 Hand crafted design & web development
 
 Design tools:
@@ -18,15 +18,15 @@ Figma
 Photoshop
 Blender
 
-twitter.com/Aryansharma9917
-github.com/Aryansharma9917
+twitter.com/AryanSharma9917
+github.com/AryanSharma9917
 
 _______________________________________________________________________________
 
 TECHNOLOGY | テクノロジー
 
 React
-Next.js
+Remix
 Three.js
 Framer Motion
 
@@ -35,4 +35,5 @@ _______________________________________________________________________________
 FONTS | フォント
 
 Gotham
-Hiragino Kaku Gothic
+IPA Gothic Regular
+Hiragino Kaku Gothic W8
